@@ -1,0 +1,21 @@
+._App-mark{
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+._App-markImg{
+  width: 100%;
+  z-index: 0;
+}
+@media screen and (max-width:768px){
+  ._App-mark{
+    width: 90% !important;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+@media screen and (max-width:500px){
+  ._App-mark{
+    width: 96%;
+  }
+}

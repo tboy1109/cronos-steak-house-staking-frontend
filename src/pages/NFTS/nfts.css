@@ -1,0 +1,109 @@
+.nft_container{
+  max-width: 1750px;
+  margin: 0 auto;
+}
+
+.menus{
+  background: #D87370;
+  border: 7px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 73px;
+  text-align: center;
+  color: #EBC894;
+  border: 4px solid #000000;
+  text-align: center;
+  padding: 6px 25px;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+  1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+.nft-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.grills{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  background: white;
+  border: 12px solid black;
+  border-radius: 20px;
+  margin: 0 auto;
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 100px;
+}
+.grills-text{
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+  1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+  text-align: center;
+  color: #EBC894;
+}
+.grill-button{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: 'Lilita One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 73px;
+  text-align: center;
+  color: #EBC894;
+  border: 2px solid #000000;
+  background: #D87370;
+  padding: 5px 10px;
+  border: 7px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background-image: url('../../../public/assets/img/image 1.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding-right: 70px;
+  text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+  1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+@media screen and (max-width: 1420px) {
+  .grills{
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .grills{
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 859px) {
+  .grills-text, .grill-button{
+    font-size: 40px;
+  }
+  .grills{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .nft-menu-img{
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+}

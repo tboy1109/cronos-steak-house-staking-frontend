@@ -1,0 +1,150 @@
+
+.body{
+  max-width: 1750px;
+  margin: 72px auto;
+  text-align: center;
+  font-family: 'imprima';
+  font-style: regular;
+  color:white;
+  text-align:center;
+  position: relative;
+}
+
+.mobiieClass{
+  padding:5px;
+  display: flex;
+  justify-content: space-between;
+}
+.cardBox{
+  margin-top: 50px !important;
+}
+.grill_steak{
+  background-image: url(../../../public//assets/background.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 40px 80px;
+
+}
+
+.grill-section{
+  position: relative;
+  width: 100%;
+  margin: auto;
+  background-image: url('../../../public/assets/img/Component.png');
+  background-size: 100% 100%;
+  font-family: 'Inter';
+  font-weight: 900;
+  font-size: 32px;
+  
+  color: #892100;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe{
+  width: 30%;
+}
+.roadmap{
+  width: 60%;
+  max-width: 980px;
+}
+
+@media screen and (max-width:1260px){
+ 
+  .mobiieClass{
+    position: absolute;
+    bottom: 20px;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+.nftimgF{
+  margin-top: 300px;
+  width: 30%;
+  z-index: 0;
+}
+.cardBox{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+}
+.cardRow-1{
+  border: none;
+}
+.cardRow-2{
+  margin-top: -50px;
+  width: 70%;
+}
+.cardRow-3{
+  margin-top: -80px;
+  width: 100%;
+}
+.cardMobile-1{
+  display: none;
+  margin-top: -50px;
+}
+.cardMobile-2{
+  display: none;
+  margin-top: -50px;
+  width: 70%;
+}
+
+@media  screen and (max-width: 970px) {
+  .grill_steak{
+    flex-direction: column;
+    margin: 20px;
+  }
+  .tvl-img{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:800px){
+  .mobiieClass{
+    top: 61px;
+    bottom: 51px;
+  }
+}
+@media screen and (max-width:1090px){
+  .cardRow-3{
+    display: none;
+  }
+  .grill-section{
+    width: 40%;
+  }
+
+  .cardMobile-1 ,.cardMobile-2{
+    display: flex;
+  }
+}
+@media screen and (max-width:620px){
+  .cardBox{
+    display: flex;
+    flex-direction: column;
+  }
+  .cardRow-3{
+    display: none;
+  }
+  .cardRow-1,.cardMobile-1,.cardMobile-2{
+    margin-top: 0px;
+  }
+  .cardRow-2{
+    margin-top: 0px;
+  }
+  .roadmap{
+    width: 80%;
+  }
+  .recipe, .nftimgF{
+    width: 70%;
+  }
+
+}

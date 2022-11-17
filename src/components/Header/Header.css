@@ -1,0 +1,125 @@
+
+.top{
+  width:100%;
+  background:#720000;
+  position:static;
+  top:0px;
+  z-index: 100;
+  border-bottom:1px solid white;
+}
+.topbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #720000;
+  max-width: 1750px;
+  margin: auto;
+  width: 90%;
+}
+.menulist{
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+}
+.topbar img{
+  /* padding-top: 8px;
+  padding-left: 28px;
+  padding-bottom: 13px; */
+}
+.menulist a {
+  font-family: 'Inter';
+  font-style: Medium;
+  line-height: 24px;
+  font-size: 20px;
+  vertical-align: top;
+  color: white !important;
+  text-decoration: none;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} 
+.menulist a:hover{
+  text-decoration: underline;
+  text-decoration-color: #FDAB45;
+}
+.menuDropdownButton{
+  display: none;
+}
+.top-logo{
+  display: block;
+}
+.hambugerlist{
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.hambugerlist a{
+  font-family: 'Inter';
+  font-style: Medium;
+  line-height: 24px;
+  font-size: 20px;
+  vertical-align: top;
+  color: white;
+  text-decoration: none;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+@media screen and (max-width:900px){
+  .menulist{
+    display: none;
+  }
+  .topbar{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10000000;
+  top: 0;
+  left: 0;
+  background-color: #720000;
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white !important;
+  display: block;
+  transition: 0.3s;
+  z-index: 1000000000 !important;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+@media screen and (max-width:900px){
+  .top-logo{
+    width: 80px;
+  }
+}

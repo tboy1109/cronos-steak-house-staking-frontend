@@ -1,0 +1,21 @@
+
+.inputBox{
+    border-radius: 0px;
+    border: 1px solid rgb(85, 85, 85);
+    background-color: white;
+    border: none;
+    padding: 12px 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.in{
+	font-size: 24px;
+    font-weight: 500;
+    text-align: right;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    margin-top: 2px;
+    font-family: 'Arial';
+}

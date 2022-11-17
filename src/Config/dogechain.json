@@ -1,0 +1,9 @@
+{
+  "name": "Dogechain Mainnet",
+  "chain_id": "2000",
+  "test_chain_id": "338",
+  "write_rpc": "https://rpc-sg.dogechain.dog",
+  "read_rpc": "https://rpc-sg.dogechain.dog",
+  "symbol": "DOGE",
+  "explorer": "https://explorer.dogechain.dog/"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Polygon Mainnet",
+  "chain_id": "137",
+  "test_chain_id": "338",
+  "write_rpc": "https://polygon-rpc.com",
+  "read_rpc": "https://polygon-rpc.com",
+  "symbol": "MATIC",
+  "explorer": "https://polygonscan.com/"
+}

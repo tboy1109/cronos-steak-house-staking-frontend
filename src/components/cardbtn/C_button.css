@@ -1,0 +1,27 @@
+.Dcardbtn{
+	color: rgba(0, 0, 0, 0.26);
+    background-color: rgba(0, 0, 0, 0.12);
+    line-height: 1.5;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    min-width: 138px;
+    border: none;
+    font-family: Montserrat;
+    
+}
+.Ecardbtn{
+	color:white;
+    background-color: rgb(135, 5, 199);
+    line-height: 1.5;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+    min-width: 138px;
+    border: none;
+    font-family: Montserrat;
+    cursor: pointer;
+    transition-duration: 1s;
+}

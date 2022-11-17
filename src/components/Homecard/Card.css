@@ -1,0 +1,67 @@
+
+.itemBody{
+  height:398px;
+  border: 2px solid #FDAB45;
+  border-radius: 30px;
+  width: 100%;
+  min-width: 274px;
+  max-width: 274px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-image: url('../../../public/assets/img/BBQ.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.itemTag{
+  margin-top: 15px;
+  background-image: url('../../../public/assets/img/CardTag.png');
+  background-position: center center;
+  /* background-size: cover; */
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  width: 100%;
+ 
+}
+.textShdow{
+	text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+.textname{
+  color: #4F4F4F;
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 19px;
+  position: absolute;
+  left: 119px;
+  top: 137px;
+  transform: rotate(-9deg);
+}
+.contentTitleStyle{
+  color:#FDAB45;
+  font-family: 'inter';
+  font-style:medium;
+  font-size:20px;
+  line-height:24px;
+  text-align:center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+ 
+}
+.cardTitleStyle {
+  color:#892100;
+  font-family: 'inter';
+  font-style:medium;
+  font-size:23px !important;
+  line-height:39px !important;
+  text-align:center;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  padding:7px;
+}
+.underlineNone{
+  text-decoration: none;
+}
